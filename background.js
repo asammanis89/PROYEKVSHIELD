@@ -1,4 +1,4 @@
-const VT_API_KEY = '2087d451da525cff3aa6a49eabcb7b855623c865395c369de2ba42a2e2ccf144';
+const VT_API_KEY = 'YOUR_API';
 const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
