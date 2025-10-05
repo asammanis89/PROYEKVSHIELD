@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.vt-shield-tooltip {
+  position: absolute;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFFFFF;
+  z-index: 999999;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  opacity: 1;
+}
+
+.vt-shield-scanning {
+  background: rgba(129, 140, 248, 0.8);
+}
+
+.vt-shield-safe {
+  background: rgba(52, 211, 153, 0.8);
+}
+
+.vt-shield-danger {
+  background: rgba(248, 113, 113, 0.8);
+}
+
+.vt-shield-suspicious {
+  background: rgba(251, 191, 36, 0.8);
+}
+
+.vt-shield-error {
+  background: rgba(160, 160, 176, 0.8);
+}

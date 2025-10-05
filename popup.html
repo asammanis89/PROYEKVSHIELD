@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VT Shield</title>
+  <link rel="stylesheet" href="popup-style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🛡️</div>
+      <h1>VT Shield</h1>
+    </div>
+
+    <div class="status-card">
+      <h2 id="status-title">Memindai...</h2>
+      <p id="status-url">Mengambil URL...</p>
+
+      <div class="divider"></div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number malicious" id="stat-malicious">-</div>
+          <div class="stat-label">Berbahaya</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-number suspicious" id="stat-suspicious">-</div>
+          <div class="stat-label">Mencurigakan</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-number harmless" id="stat-harmless">-</div>
+          <div class="stat-label">Aman</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Powered by VirusTotal
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
